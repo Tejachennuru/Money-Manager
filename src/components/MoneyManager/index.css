@@ -1,0 +1,109 @@
+/* Write your CSS here */
+
+.welcome-card {
+  background-size: cover;
+  border-radius: 12px;
+  padding: 30px;
+  color: #1e293b;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.welcome-card h1 {
+  font-size: 24px;
+}
+
+.welcome-card span {
+  font-weight: bold;
+}
+
+.add-transaction {
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+  width: 400px;
+  margin-top: 20px;
+  margin: 25px;
+}
+
+.add-transaction form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  margin: 25px;
+}
+
+.add-transaction input,
+.add-transaction select,
+.add-transaction button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.transaction-history {
+  margin-top: 20px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: black;
+  width: 600px;
+  padding: 30px;
+}
+
+.transaction-list {
+  border-top: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+.transaction-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.transaction-header p {
+  flex: 1;
+  text-align: center;
+}
+// MoneyManager/index.css
+.money-manager-section {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #334155;
+  margin: 15px;
+}
+
+.welcome-card h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.welcome-card span {
+  color: #0b69ff;
+  font-weight: 600;
+}
+
+.transaction-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-controls {
+    flex-direction: row;
+  }
+}
+
+.transaction-history {
+  margin: 25px;
+}
+
+.details {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

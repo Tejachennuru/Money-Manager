@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+/* TransactionItem.css */
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.transaction-item p {
+  flex: 1;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.transaction-item button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.transaction-item button:hover {
+  background-color: #d32f2f;
+}
+
+// TransactionItem/index.css
+.transaction-header, .transaction-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #cbd5e1;
+}
+
+.transaction-header {
+  font-weight: 700;
+  color: #475569;
+}
+
+.transaction-item {
+  color: #334155;
+}
+
+.transaction-item button {
+  background-color: transparent;
+  border: 1px solid #d7dfe9;
+  color: #7e858e;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
